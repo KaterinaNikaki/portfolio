@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katerina Nikaki</title>
+    <link rel="icon" href="img/mylogo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/mylogo.png" alt="logo">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Katerina Nikaki</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+        <img src="img/dev-kate-01.jpg" alt="image of myself" class="intro__img">
+    </section>
+
+    <!-- Skills -->
+
+    <section class="my-skills" id="skills">
+        <h2 class="section__title section__title--skills">Where I excel</h2>
+        <div class="skills">
+            <div class="skill">
+                <h3>Problem Solving</h3>
+                <p>Web programming is all about solving problems. When troubleshooting, my analytical skills allow me to know where to look for the problem. Always trying to find the best (fastest, most elegant, effective) way to solve a problem.</p>
+            </div>
+            <div class="skill">
+                <h3>Interactivity</h3>
+                <p>I love making pages come to life. I use every possible technique (click to action, slideshows, animations) to facilitate the user to be actively engaged with the site and create a rich user's experience.</p>
+            </div>
+            <div class="skill">
+                <h3>Creativity</h3>
+                <p>I expressed creativity in several ways throughout my professional path. I like building things from scratch or modify them to look better. I also enjoy using my creativity to find innovative ways of doing things.</p>
+            </div>
+            <div class="skill">
+                <h3>Responsiveness</h3>
+                <p>With a mix of flexible grids and an intelligent use of CSS media queries, my layouts look good on any device and respond to the user's behavior and environment accordingly.</p>
+            </div>
+        </div>
+        <a href="#work" class="btn">My work</a>
+    </section>
+
+    <!-- About me -->
+
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Front-end web developer based in Greece</p>
+        <div class="about-me__body">
+            <p>My name is Katerina and I am a self-taught coder. I have completed a master degree in marketing management and gained working experience of almost 20+ years in different organisations, mostly in administrative roles. However, I recently began
+                to be fascinated by web programming and changed my career path. I attended a highly intensive 12-week bootcamp in front-end technologies. In addition to HTML, CSS and Javascript, I have learned how to use modern frameworks and libraries
+                like Bootstrap and Vue.js.</p>
+        </div>
+        <p class="about-me__conclusion">I am interested in the entire front-end spectrum, with focus on writing clean and efficient code for dynamic applications and websites. I love what I do and I keep building multiple projects on my own time to further enhance my skills. I am keen
+            to gain more experience in the field. For this reason, I am looking for a company willing to offer me a placement among their developers. In return, I would offer my full commitment, and be a pleasant and friendly addition to the team.</p>
+        <img src="img/dev-kate-02.jpg" alt="image of myself" class="about-me__img">
+    </section>
+
+    <!-- My Work -->
+
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+        <div class="portfolio">
+            <div class="portfolio__item">
+                <div class="portfolio__card">
+                    <div class="front">
+                        <img src="img/portfolio-01.jpg " alt=" " class="portfolio__img ">
+                    </div>
+                    <div class="back">
+                        <h3 class="portfolio__title">Tech Store</h3>
+                        <p class="portfolio__features">HTML / CSS</p>
+                        <p class="portfolio__description">The layout of a website built for a mock tech store. Working with HTML lists, tables, and forms. Using CSS to style these elements and make the layout responsive.</p>
+                        <a href="https://katerinanikaki.github.io/tech-store/" target="_blank" title="View Online" class="portfolio__link ">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                        <a href="https://github.com/KaterinaNikaki/tech-store" target="_blank" title="View Source" class="portfolio__link ">
+                            <i class="fab fa-github "></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__item">
+                <div class="portfolio__card">
+                    <div class="front">
+                        <img src="img/portfolio-02.jpg " alt=" " class="portfolio__img ">
+                    </div>
+                    <div class="back">
+                        <h3 class="portfolio__title">Slider</h3>
+                        <p class="portfolio__features">JAVASCRIPT / HTML / CSS</p>
+                        <p class="portfolio__description">Array based animated slideshow that can be fully customized using Javascript. The focus of this project was DOM manipulation. The content of HTML changes dynamically.</p>
+                        <a href="https://katerinanikaki.github.io/slider/" target="_blank" title="View Online" class="portfolio__link ">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                        <a href="https://github.com/KaterinaNikaki/slider" target="_blank" title="View Source" class="portfolio__link ">
+                            <i class="fab fa-github "></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__item">
+                <div class="portfolio__card">
+                    <div class="front">
+                        <img src="img/portfolio-03.jpg " alt=" " class="portfolio__img ">
+                    </div>
+                    <div class="back">
+                        <h3 class="portfolio__title">Gourmet Burgers</h3>
+                        <p class="portfolio__features">BOOTSTRAP / HTML / CSS</p>
+                        <p class="portfolio__description">A fully responsive landing page for a mock company called "Gourmet Burgers", using Bootstrap 4 framework.</p>
+                        <a href="https://katerinanikaki.github.io/gourmet-burgers/" target="_blank" title="View Online" class="portfolio__link ">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                        <a href="https://github.com/KaterinaNikaki/gourmet-burgers" target="_blank" title="View Source" class="portfolio__link ">
+                            <i class="fab fa-github "></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__item">
+                <div class="portfolio__card">
+                    <div class="front">
+                        <img src="img/portfolio-04.jpg " alt=" " class="portfolio__img ">
+                    </div>
+                    <div class="back">
+                        <h3 class="portfolio__title">Number Match Game</h3>
+                        <p class="portfolio__features">JAVASCRIPT / HTML / CSS</p>
+                        <p class="portfolio__description">A random image and a number are generated that change every 3 seconds. The player has to hit thumbs up if the number on the screen matches the number of items on the random picture and thumbs down if it doesn't.</p>
+                        <a href="https://katerinanikaki.github.io/number-match-game/" target="_blank" title="View Online" class="portfolio__link ">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                        <a href="https://github.com/KaterinaNikaki/number-match-game" target="_blank" title="View Source" class="portfolio__link ">
+                            <i class="fab fa-github "></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__item">
+                <div class="portfolio__card">
+                    <div class="front">
+                        <img src="img/portfolio-05.jpg " alt=" " class="portfolio__img ">
+                    </div>
+                    <div class="back">
+                        <h3 class="portfolio__title">Native Advertisement</h3>
+                        <p class="portfolio__features">JAVASCRIPT / HTML / CSS</p>
+                        <p class="portfolio__description">I made this project for a company to test my ability to code. It is mostly HTML and CSS, mixed with Javascript in order to make the images appear on scroll.</p>
+                        <a href="https://katerinanikaki.github.io/native-advertisement/" target="_blank" title="View Online" class="portfolio__link ">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                        <a href="https://github.com/KaterinaNikaki/native-advertisement" target="_blank" title="View Source" class="portfolio__link ">
+                            <i class="fab fa-github "></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__item">
+                <div class="portfolio__card">
+                    <div class="front">
+                        <img src="img/portfolio-06.jpg " alt=" " class="portfolio__img ">
+                    </div>
+                    <div class="back">
+                        <h3 class="portfolio__title">Typing Speed Tester</h3>
+                        <p class="portfolio__features">JAVASCRIPT / HTML / CSS</p>
+                        <p class="portfolio__description">An application that tests your typing speed and accuracy.</p>
+                        <a href="https://katerinanikaki.github.io/typing-speed-tester/" target="_blank" title="View Online" class="portfolio__link ">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                        <a href="https://github.com/KaterinaNikaki/typing-speed-tester" target="_blank" title="View Source" class="portfolio__link ">
+                            <i class="fab fa-github "></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__item">
+                <div class="portfolio__card">
+                    <div class="front">
+                        <img src="img/portfolio-07.jpg " alt=" " class="portfolio__img ">
+                    </div>
+                    <div class="back">
+                        <h3 class="portfolio__title">Song Finder</h3>
+                        <p class="portfolio__features">API'S / JAVASCRIPT / HTML / CSS</p>
+                        <p class="portfolio__description">A song-finder application, using API's to fetch data from itunes library.</p>
+                        <a href="https://katerinanikaki.github.io/song-finder/" target="_blank" title="View Online" class="portfolio__link ">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                        <a href="https://github.com/KaterinaNikaki/song-finder" target="_blank" title="View Source" class="portfolio__link ">
+                            <i class="fab fa-github "></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__item">
+                <div class="portfolio__card">
+                    <div class="front">
+                        <img src="img/portfolio-08.jpg " alt=" " class="portfolio__img ">
+                    </div>
+                    <div class="back">
+                        <h3 class="portfolio__title">PX to EM Converter</h3>
+                        <p class="portfolio__features">JAVASCRIPT / HTML / CSS</p>
+                        <p class="portfolio__description">A calculator which converts pixel values to em, relative to the size that is required.</p>
+                        <a href="https://katerinanikaki.github.io/px-to-em-calculator/" target="_blank" title="View Online" class="portfolio__link ">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                        <a href="https://github.com/KaterinaNikaki/px-to-em-calculator" target="_blank" title="View Source" class="portfolio__link ">
+                            <i class="fab fa-github "></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__item">
+                <div class="portfolio__card">
+                    <div class="front">
+                        <img src="img/portfolio-09.jpg " alt=" " class="portfolio__img ">
+                    </div>
+                    <div class="back">
+                        <h3 class="portfolio__title">Text Format</h3>
+                        <p class="portfolio__features">VUE.JS / HTML / CSS</p>
+                        <p class="portfolio__description">This text changes appearance based on the selection made. For each selection, the corresponding element in HTML changes class, using Vue.Js.</p>
+                        <a href="https://katerinanikaki.github.io/text-format/" target="_blank" title="View Online" class="portfolio__link ">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                        <a href="https://github.com/KaterinaNikaki/text-format" target="_blank" title="View Source" class="portfolio__link ">
+                            <i class="fab fa-github "></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__item">
+                <div class="portfolio__card">
+                    <div class="front">
+                        <img src="img/portfolio-10.jpg " alt=" " class="portfolio__img ">
+                    </div>
+                    <div class="back">
+                        <h3 class="portfolio__title">Computer Scientists</h3>
+                        <p class="portfolio__features">VUE.JS / HTML / BOOTSTRAP</p>
+                        <p class="portfolio__description">A list of some computer scientists, with a search box at the top. When the button "filter for" is pressed, it returns only the entries that contain the search term.</p>
+                        <a href="https://katerinanikaki.github.io/computer-scientists/" target="_blank" title="View Online" class="portfolio__link ">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                        <a href="https://github.com/KaterinaNikaki/computer-scientists" target="_blank" title="View Source" class="portfolio__link ">
+                            <i class="fab fa-github "></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer  -->
+
+    <footer class="footer ">
+        <a href="mailto:ka3n.ath@gmail.com" class="footer__link ">ka3n.ath@gmail.com</a>
+        <ul class="social-list ">
+            <li class="social-list__item">
+                <a href="https://github.com/KaterinaNikaki" target="_blank" class="social-list__link ">
+                    <i class="fab fa-github "></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/katerinanikaki/" target="_blank" class="social-list__link ">
+                    <i class="fab fa-linkedin-in "></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="skype:katerina.nikaki" target="_blank" class="social-list__link">
+                    <i class="fab fa-skype "></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://codepen.io/NIKAKI" target="_blank" class="social-list__link ">
+                    <i class="fab fa-codepen "></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js "></script>
+</body>
+
+</html>
